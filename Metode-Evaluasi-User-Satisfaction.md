@@ -49,15 +49,14 @@
 * **Akses & Izin**: Pastikan izin data (ethics/informed consent) jika data sensitif atau jika survei dilakukan untuk penelitian.
 * **Media Pengumpulan**: Online (Google Forms, LimeSurvey, Qualtrics) atau kertas. Disarankan online untuk efisiensi dan integrasi data.
 
-## 3.2 Langkah Prosedural (ringkas)
-
+## 3.2 Langkah Prosedural
 1. **Perencanaan Instrumen**: Susun butir kuesioner berdasarkan aspek (kecepatan, akurasi, kemudahan, tampilan, dukungan). Gunakan 4–6 butir per aspek bila ingin reliabilitas lebih tinggi.
 2. **Uji Validitas & Reliabilitas Awal**: Lakukan uji coba (pilot) pada 15–30 responden untuk cek konsistensi (Cronbach’s α) dan revisi butir yang ambigu. ([PMC][2])
 3. **Pelaksanaan Survei**: Sebarkan kuesioner ke sampel utama. Pastikan pengumpulan data minimal memenuhi ukuran sampel per rancangan.
 4. **Pengolahan Data**: Entri data → bersihkan → analisis skor item, skor aspek, indeks kepuasan.
 5. **Pelaporan & Tindak Lanjut**: Buat laporan ringkas dan rekomendasi prioritas per aspek.
 
-## 3.3 Bentuk Kuesioner (aturan praktis)
+## 3.3 Bentuk Kuesioner
 
 * Gunakan skala Likert 5 poin: 1 = Sangat Tidak Setuju hingga 5 = Sangat Setuju. (Atau 1–5 dengan label yang sesuai). Rensis Likert merekomendasikan format ini sejak 1932. ([legacy.voteview.com][3])
 * Kombinasikan pertanyaan afirmatif dan — jika perlu — negatif (diberi skor terbalik) untuk mengurangi bias respons otomatis.
@@ -161,7 +160,7 @@ Misalkan 10 butir, seorang responden total skor = 38 → `Rata2_Total = 3.8` →
 * **Validitas Isi**: pastikan butir mewakili ruang lingkup aspek (minta panel ahli untuk menskor relevansi butir).
 * **Validitas Konstruk**: lakukan analisis faktor eksploratori (EFA) untuk memeriksa apakah butir-butir memang mengelompok sesuai aspek yang dimaksud. Jika sampel besar, lakukan konfirmasi (CFA).
 
-## 7.3 Uji Statistik Lainnya (opsional)
+## 7.3 Uji Statistik Lainnya
 
 * **Uji Perbandingan**: t-test atau ANOVA untuk membandingkan IKP antar kelompok (mis. pengguna baru vs berpengalaman).
 * **Korelasi / Regresi**: jika ingin melihat pengaruh aspek (predictor) terhadap kepuasan keseluruhan (dependent variable), gunakan regresi linier berganda—namun cek asumsi (normalitas residual, multikolinearitas).
@@ -171,7 +170,7 @@ Misalkan 10 butir, seorang responden total skor = 38 → `Rata2_Total = 3.8` →
 
 ---
 
-# 8. Diagram Alur (Mermaid — aktif jika platform mendukung)
+# 8. Diagram Alur
 
 ## 8.1 Alur Proses Evaluasi — Flowchart
 
@@ -192,7 +191,7 @@ flowchart TD
 ```
 
 
-## 8.2 Data Flow (Sederhana — Mermaid)
+## 8.2 Data Flow
 
 ```mermaid
 flowchart LR
@@ -219,7 +218,7 @@ flowchart LR
 
 ---
 
-# 10. Contoh Lembar Analisis: Cara Melaporkan Hasil (Template)
+# 10. Contoh Lembar Analisis: Cara Melaporkan Hasil
 
 **Ringkasan Eksekutif (2–3 kalimat)**
 Contoh: "Berdasarkan survei pada N = 120 pengguna selama periode 1 bulan, Indeks Kepuasan Pengguna (IKP) sistem sebesar 72 (kategori: Puas). Aspek dukungan menunjukkan skor terendah (67.5) dan direkomendasikan prioritas perbaikan."
@@ -245,7 +244,7 @@ Contoh: "Berdasarkan survei pada N = 120 pengguna selama periode 1 bulan, Indeks
 
 ---
 
-# 12. Referensi Singkat (pilih yang dapat dikutip dalam skripsi)
+# 12. Referensi
 
 * ISO/IEC 25010:2011 — *Systems and software engineering — System and software quality models*. ([cdn.standards.iteh.ai][1])
 * DeLone, W. H., & McLean, E. R. (2003). *The DeLone and McLean Model of Information Systems Success: A Ten-Year Update*. Journal of Management Information Systems. ([tandfonline.com][4])
@@ -262,6 +261,7 @@ Contoh: "Berdasarkan survei pada N = 120 pengguna selama periode 1 bulan, Indeks
 Metode *User Satisfaction Survey* dengan kuesioner skala Likert adalah metode praktis, terukur, dan cocok untuk penelitian skripsi dan praktik pengembangan produk. Dengan perencanaan instrumen yang matang, uji pilot untuk validitas dan reliabilitas, serta prosedur pengolahan data yang jelas (termasuk konversi ke Indeks Kepuasan Pengguna 0–100), tim pengembang dan peneliti dapat memperoleh gambaran kuantitatif tentang performa sistem menurut perspektif pengguna. Hasil survei tidak hanya memberi ukuran statis; apabila dilaksanakan secara periodik, survei ini menjadi alat monitoring yang kuat untuk siklus perbaikan berkelanjutan.
 
 ---
+
 
 
 
