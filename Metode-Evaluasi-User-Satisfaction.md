@@ -175,20 +175,21 @@ Misalkan 10 butir, seorang responden total skor = 38 → `Rata2_Total = 3.8` →
 
 ## 8.1 Alur Proses Evaluasi — Flowchart
 
+```mermaid
 flowchart TD
-  A[Mulai: Perencanaan Evaluasi] --> B[Definisikan Tujuan dan Sampel]
-  B --> C[Susun Instrumen - Butir per Aspek]
-  C --> D[Uji Pilot - Validitas dan Reliabilitas]
-  D --> E{Pilot OK?}
-  E -- Ya --> F[Luncurkan Survei ke Sampel]
-  E -- Tidak --> C
-  F --> G[Kumpulkan dan Bersihkan Data]
-  G --> H[Analisis Skor Aspek dan IKP]
-  H --> I[Analisis Statistik Cronbach dan Uji Komparatif]
-  I --> J[Interpretasi dan Rekomendasi]
-  J --> K[Tindak Lanjut - Perbaikan dan Monitoring]
-  K --> L[Selesai / Siklus Berikutnya]
-
+  A["Mulai: Perencanaan Evaluasi"] --> B["Definisikan Tujuan dan Sampel"]
+  B --> C["Susun Instrumen - Butir per Aspek"]
+  C --> D["Uji Pilot - Validitas dan Reliabilitas"]
+  D --> E{"Pilot OK?"}
+  E -- "Ya" --> F["Luncurkan Survei ke Sampel"]
+  E -- "Tidak" --> C
+  F --> G["Kumpulkan dan Bersihkan Data"]
+  G --> H["Analisis Skor Aspek dan IKP"]
+  H --> I["Analisis Statistik - Cronbach, EFA, Uji Komparatif"]
+  I --> J["Interpretasi dan Rekomendasi"]
+  J --> K["Tindak Lanjut - Perbaikan dan Monitoring"]
+  K --> L["Selesai / Siklus Berikutnya"]
+```
 
 
 ## 8.2 Data Flow (Sederhana — Mermaid)
@@ -261,5 +262,6 @@ Contoh: "Berdasarkan survei pada N = 120 pengguna selama periode 1 bulan, Indeks
 Metode *User Satisfaction Survey* dengan kuesioner skala Likert adalah metode praktis, terukur, dan cocok untuk penelitian skripsi dan praktik pengembangan produk. Dengan perencanaan instrumen yang matang, uji pilot untuk validitas dan reliabilitas, serta prosedur pengolahan data yang jelas (termasuk konversi ke Indeks Kepuasan Pengguna 0–100), tim pengembang dan peneliti dapat memperoleh gambaran kuantitatif tentang performa sistem menurut perspektif pengguna. Hasil survei tidak hanya memberi ukuran statis; apabila dilaksanakan secara periodik, survei ini menjadi alat monitoring yang kuat untuk siklus perbaikan berkelanjutan.
 
 ---
+
 
 
